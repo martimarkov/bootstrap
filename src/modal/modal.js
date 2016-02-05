@@ -527,7 +527,7 @@ angular.module('ui.bootstrap.modal', ['ui.bootstrap.stackedMap'])
       
       $modalStack.getOpenedWindowsNum = function() {
         return openedWindows.length();
-      }
+      };
 
       $modalStack.modalRendered = function(modalInstance) {
         var modalWindow = openedWindows.get(modalInstance);
